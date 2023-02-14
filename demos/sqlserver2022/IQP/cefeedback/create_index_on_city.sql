@@ -1,4 +1,4 @@
-USE [AdventureWorks_EXT];
+USE [ce_feedback];
 GO
 CREATE NONCLUSTERED INDEX [IX_Address_City] ON [Person].[Address]
 (

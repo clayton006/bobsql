@@ -1,4 +1,4 @@
-USE WideWorldImporters;
+USE dop_feedback;
 GO
 -- The hash value of 4128150668158729174 should be fixed for the plan from the workload
 SELECT qsp.query_plan_hash, avg_duration/1000 as avg_duration_ms, 

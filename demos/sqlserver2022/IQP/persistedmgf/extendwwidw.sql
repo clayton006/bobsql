@@ -1,4 +1,4 @@
-USE WideWorldImportersDW;
+USE mgf_demo;
 GO
 
 -- Build a new rowmode table called OrderHistory based off of Orders

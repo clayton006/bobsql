@@ -1,4 +1,4 @@
-USE AdventureWorks_EXT;
+USE ce_feedback;
 GO
 SELECT * from sys.query_store_query_hints;
 GO

@@ -1,4 +1,4 @@
-USE WideWorldImporters;
+USE dop_feedback;
 GO
 CREATE OR ALTER PROCEDURE [Warehouse].[GetStockItemsbySupplier]  @SupplierID int
 AS

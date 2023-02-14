@@ -1,4 +1,4 @@
-USE WideWorldImportersDW;
+USE mgf_demo;
 GO
 SELECT fo.[Order Key], fo.Description, si.[Lead Time Days]
 FROM  Fact.OrderHistory AS fo

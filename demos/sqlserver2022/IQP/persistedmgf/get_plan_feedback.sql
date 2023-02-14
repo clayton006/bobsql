@@ -1,4 +1,4 @@
-USE WideWorldImportersDW;
+USE mgf_demo;
 GO
 SELECT qpf.feature_desc, qpf.feedback_data, qpf.state_desc, qt.query_sql_text, (qrs.last_query_max_used_memory * 8192)/1024 as last_query_memory_kb 
 FROM sys.query_store_plan_feedback qpf

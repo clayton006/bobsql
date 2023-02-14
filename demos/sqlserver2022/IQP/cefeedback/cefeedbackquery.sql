@@ -1,4 +1,4 @@
-USE AdventureWorks_EXT;
+USE ce_feedback;
 GO
 SELECT AddressLine1, City, PostalCode FROM Person.Address
 WHERE StateProvinceID = 79
